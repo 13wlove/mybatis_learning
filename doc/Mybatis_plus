@@ -1,9 +1,9 @@
                            Mybatis-plus 学习（2020.02.20）
 1.id必须加@TableId(value=”id”,type=IdType.INPUT)
 2.type-aliases-package: com.wu.entity (.yml文件 包别名)
-3.  mapper-locations: classpath:mappers/*.xml(.yml文件 mapper .xml位置)
-4. <mapper namespace="com.wu.mapper.UserMapper"> xml中添加映射的interface 位置
-5. 用@Test方法必须是void
+3.mapper-locations: classpath:mappers/*.xml(.yml文件 mapper .xml位置)
+4.<mapper namespace="com.wu.mapper.UserMapper"> xml中添加映射的interface 位置
+5.用@Test方法必须是void
 6.@TableName()指定表明对应关系
 7.@TableField()指定数据表中的指定列
 8.排除非表字段
